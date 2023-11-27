@@ -32,10 +32,9 @@ void loop() {
   else if(RS == LOW){
     left_turn();
   }
-  else{
+  else if(LS == HIGH && RS == HIGH){
     forward();
   }
-
 
 }
 
